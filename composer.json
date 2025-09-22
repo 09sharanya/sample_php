@@ -1,0 +1,17 @@
+{
+    "name": "hp/php_sample",
+    "autoload": {
+        "psr-4": {
+            "Hp\\PhpSample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "09sharanya",
+            "email": "sharanya200309@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
