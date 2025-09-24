@@ -7,7 +7,7 @@ on:
   #   branches: [ "main" ]
   schedule:
         # Runs every day at 2:30 PM UTC
-        - cron: '44 16 * * *'
+        - cron: '33 08 * * *'
 
 jobs:
   build:
