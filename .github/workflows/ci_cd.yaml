@@ -1,13 +1,13 @@
 name: PHP CI/CD
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
   schedule:
         # Runs every day at 2:30 PM UTC
-        - cron: '42 16 * * *'
+        - cron: '44 16 * * *'
 
 jobs:
   build:
