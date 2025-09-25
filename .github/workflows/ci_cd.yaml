@@ -1,8 +1,6 @@
 name: PHP CI/CD
 
 on:
-  push:
-     branches: ["main"]  
   workflow_dispatch:
   schedule:
         # Runs every day at 2:30 PM UTC
