@@ -2,9 +2,9 @@ name: PHP CI/CD
 
 on:
   workflow_dispatch:
-  schedule:
-        # Runs every day at 2:30 PM UTC
-        - cron: '19 11 * * *'
+  # schedule:
+  #       # Runs every day at 2:30 PM UTC
+  #       - cron: '19 11 * * *'
 
 jobs:
   build:
